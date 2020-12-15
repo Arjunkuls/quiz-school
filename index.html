@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>HTML forms</title>
+</head>
+<body>
+    
+    <form class="form">
+        <main >
+        <label for="fname">Name:</label><br>
+        <input type="text" id="fname" name="fname"></main>
+        
+        <main>
+        <label for="lq">In what period will Rs.5,200 amounts to Rs.7,384 at 12% per annum simple interest?</label><br>
+        <input type="text" id="Q1" name="lq"></main>
+
+        <main>
+            <label for="lq">Rs 1,500 was invested at 20% per annum simple interest and a certain sum of money invested at 15% per annum simple interest. If the sum of the interests on both the sums after 4 years is Rs 1,500, the latter sum of money is?</label><br>
+            <input type="text" id="Q2" name="lq"></main>
+
+        <main>
+            <label for="lq">At what rate percent per annum will a sum of money double in 8 years.</label><br>
+            <input type="text" id="Q3" name="lq"></main>
+
+        
+          <main>
+            <label for="lq">I have Rs 7500/- which I deposit in a bank at a simple quarterly interest of 8%. How much will the amount yield me in two and a half years?</label><br>
+            <input type="text" id="Q4" name="lq"></main>
+
+            <main>
+              <label for="lq">In 30 years an amount becomes 5 times the original amount. What is the rate of interest?</label><br>
+              <input type="text" id="Q5" name="lq"></main>
+
+            <button id="addBtn">Send</button>
+    </form>
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBDwbfahU1I8xiXoTxM6D3wMf_PcXGuEok",
+    authDomain: "schoolmathsmela.firebaseapp.com",
+    databaseURL: "https://schoolmathsmela-default-rtdb.firebaseio.com",
+    projectId: "schoolmathsmela",
+    storageBucket: "schoolmathsmela.appspot.com",
+    messagingSenderId: "968996775866",
+    appId: "1:968996775866:web:68a15ee17ba9b462c79f83"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="index.js"></script>
+</body>
+</html>
+
