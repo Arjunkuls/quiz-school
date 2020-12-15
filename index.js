@@ -15,6 +15,7 @@ addBtn.addEventListener('click', (e) => {
     q3 = document.getElementById("Q3").value;
     q4 = document.getElementById("Q4").value;
     q5 = document.getElementById("Q5").value;
+    alert("Quiz submitted, you may close this tab after 5 seconds")
 
     if (q1 === "3.5 years"){
         score++;
